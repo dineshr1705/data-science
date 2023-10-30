@@ -1,0 +1,37 @@
+In scikit-learn (sklearn), there are several preprocessing techniques available for encoding categorical features, each serving a different purpose. As of my last knowledge update in September 2021, scikit-learn offers the following categorical encoding techniques:
+
+		Label Encoding:
+
+			sklearn.preprocessing.LabelEncoder
+			Converts each category into a numerical value, starting from 0.
+			Suitable for ordinal categorical variables (where there's an inherent order).
+
+		One-Hot Encoding:
+
+			sklearn.preprocessing.OneHotEncoder
+			Converts categorical features into binary vectors (0s and 1s) for each category.
+			Suitable for nominal categorical variables (where categories have no intrinsic order).
+
+		Ordinal Encoding:
+
+			Custom approach, not directly provided by scikit-learn.
+			Converts ordinal categorical features into ordered numeric values, preserving the ordinal relationship.
+			Requires manual specification of category ordering.
+
+		Target Encoding (Mean Encoding):
+
+			Not directly provided by scikit-learn.
+			Replaces categorical values with the mean of the target variable for that category.
+			Useful for encoding categorical variables when the target variable is numeric.
+
+		Frequency (Count) Encoding:
+
+			Custom approach, not directly provided by scikit-learn.
+			Replaces categorical values with their frequency (count) in the dataset.
+			Can be useful when the frequency of occurrence carries information.
+
+		Binary Encoding:
+
+			Not directly provided by scikit-learn.
+			Converts category integers to binary code, then splits the digits into separate columns.
+			Useful when you have a large number of categories and want to reduce the dimensionality of the encoded feature space.

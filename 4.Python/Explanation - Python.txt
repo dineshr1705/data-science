@@ -1,0 +1,54 @@
+Explanation - Python
+	
+	- 4 types to uses of python
+		
+	    - Data Manipulation and Analysis
+            - Data Visualization
+	    - Statistical Analysis and Modeling
+	    - Machine Learning
+
+	- Data Manipulation and Analysis:
+
+		Python provides libraries like NumPy and Pandas, which offer powerful tools for data manipulation, cleaning, and transformation. These libraries enable efficient 	handling of large datasets, performing calculations, filtering, merging, and reshaping data.
+
+	- Data Visualization:
+
+		Python offers libraries such as Matplotlib, Seaborn, and Plotly, they ill provide interactive visualizations. 	
+			
+			These libraries allow data analysts and scientists to create 
+				
+				1. charts
+				2. graphs
+				3. heatmaps 
+				4. scatter plots
+				5. patterns
+				6. trends
+				7. outliers.
+
+	- Statistical Analysis and Modeling:
+
+		1. Python's SciPy library provides a robust set of statistical functions and methods for tasks like hypothesis testing, correlation analysis, and probability 	distributions.
+		
+		2.For advanced statistical modeling, Python offers libraries such as Statsmodels and scikit-learn. These libraries include a variety of algorithms for regression, 	classification, clustering, and dimensionality reduction, as well as evaluation metrics and tools for model selection and validation.
+
+
+	- Machine Learning:
+
+		1. Python has become a go-to language for machine learning due to libraries like scikit-learn, TensorFlow, and PyTorch. These libraries provide a vast array of 	algorithms and tools for tasks like classification, regression, clustering, and natural language processing (NLP).
+
+		2.Python's scikit-learn offers a user-friendly and efficient interface for implementing machine learning models, along with tools for feature selection, model 	evaluation, 	and hyperparameter tuning.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Explanation of (EDA)Exploratory Data analysis:
+
+
+		Exploratory Data Analysis (EDA) is the process of examining and visualizing 	data to gain insights and understand its characteristics, patterns, and 	relationships, helping to inform subsequent analysis and decision-making in a 	concise and informative manner. It involves tasks like summary statistics, data 	visualization, and identifying data quality issues or outliers.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Explanation of Data Preprocessing:
+
+		

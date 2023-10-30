@@ -1,0 +1,127 @@
+Becoming a data scientist requires a combination of technical skills, domain knowledge, and soft skills. 
+Here's a list of key skills you should aim to develop to succeed in the field of data science, along with suggestions on where to learn and develop these skills:
+
+	Technical Skills:
+	-----------------
+
+		1.Programming Languages: 
+			
+			Proficiency in languages like Python and R is essential for data manipulation, analysis, and modeling.
+
+		Where to Learn: 
+			
+			Online platforms like Codecademy, Coursera, edX, and DataCamp offer Python and R courses.
+
+
+		2.Data Manipulation and Analysis: 
+		
+			Ability to work with data using libraries like Pandas, NumPy, and dplyr.
+
+		Where to Learn: 
+		
+			Online courses on platforms like Udacity, Coursera, and Khan Academy cover data manipulation.
+
+
+		3.Data Visualization: 
+		
+			Skills in creating effective visualizations using libraries like Matplotlib, Seaborn, and ggplot2.
+
+		Where to Learn: 
+		
+			Platforms like Udemy, Coursera, and YouTube offer courses on data visualization.
+
+
+		4.Machine Learning: 
+		
+			Understanding and application of machine learning algorithms for classification, regression, clustering, etc.
+
+		Where to Learn: 
+			
+			Online courses on platforms like Coursera, edX, and fast.ai teach machine learning.
+
+
+		5.Deep Learning: 
+		
+			Knowledge of neural networks and deep learning frameworks like TensorFlow and PyTorch.
+
+		Where to Learn: 
+		
+			Courses on Coursera, fast.ai, and TensorFlow's official website provide deep learning education.
+		
+		
+		6.SQL and Databases: 
+		
+			Ability to work with databases for data retrieval and manipulation.
+
+		Where to Learn: 
+		
+			SQL tutorials are available on Codecademy, W3Schools, and Mode Analytics.
+
+
+	Domain Knowledge:
+	-----------------
+
+		1.Statistics and Probability: 
+		
+			Strong foundation in statistics and probability theory for understanding data and modeling.
+
+		Where to Learn: 
+		
+			Khan Academy, Coursera, and edX offer courses on statistics and probability.
+
+
+		2.Domain Expertise: 
+		
+			Depending on the industry you're interested in, understanding the specific domain (e.g., finance, healthcare, e-commerce) is valuable for meaningful data analysis.
+
+		Where to Learn: 
+		
+			Websites related to your chosen industry, online courses, and domain-specific books.
+
+
+	Soft Skills:
+	-------------
+
+		1.Communication: 
+		
+			Ability to explain complex concepts to non-technical stakeholders and collaborate effectively.
+
+		Where to Improve: 
+		
+			Practice writing blog posts, explaining concepts to friends, or participating in online forums.
+
+
+		2.Problem-Solving: 
+		
+			Critical thinking and problem-solving skills to tackle complex data challenges.
+
+		Where to Improve: 
+		
+			Platforms like LeetCode, HackerRank, and Project Euler offer coding challenges.
+		
+		3.Continuous Learning: 
+		
+			Data science is an evolving field. The ability to keep learning and adapting is essential.
+
+		Where to Improve: 
+		
+			Regularly follow data science blogs, attend conferences, and participate in online courses.
+			
+			
+	Where to Develop Skills:
+	------------------------
+
+			Online Courses: 	Platforms like Coursera, edX, Udacity, and DataCamp offer a wide range of data science courses.
+			
+			University Programs: 	Consider pursuing a formal degree or certificate program in data science or related fields.
+			
+			Books and Blogs: 	There are plenty of books and blogs focused on data science topics. For example, "Introduction to Statistical Learning" is a recommended book.
+			
+			Coding Challenges: 	Practice coding on platforms like LeetCode and HackerRank to enhance your problem-solving skills.
+			
+			Kaggle: 	Participate in data science competitions on Kaggle to apply your skills and learn from others.
+			
+			GitHub: 	Contribute to open-source projects, showcase your projects, and collaborate with others.
+			
+			Networking: 	Attend data science meetups, conferences, and webinars to connect with professionals in the field.
+			

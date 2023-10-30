@@ -1,0 +1,7 @@
+A,B,C,D
+,one,x,1
+,one,y,3
+,two,x,2
+bar,two,y,5
+bar,one,x,4
+bar,one,y,1

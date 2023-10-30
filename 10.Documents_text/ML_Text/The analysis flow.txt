@@ -1,0 +1,24 @@
+1. Approach The analysis will follow the below approach
+
+ Part 1: Data Prepration
+     --> Understand the Data Structure
+     --> Deep Analysis on each column (feature or variable). 
+         What values withhold? Number of count? Missing value? Error?
+ Part 2: Data Cleaning
+     --> Clean the data
+         Correct the content, fill the missing data, modify the content etc
+     --> Introduce new columns to help understand the data better
+ Part 3: Data Analysis
+     --> Analyse the retionships between column(s) and the Survival Rate, 
+         to find out what type of group people were likely to survive
+ Part 4: Feature Importance
+     --> Analysis on feature importance to show which features have more significant impact to the   
+         survival rate 
+ Part 5: Model Selection
+     --> This is a typical supervised classification problem. I chose quite a number of models to compare    
+         the accuracy. One thing I noticed that if I use the original train and test dataset for model training 
+         and fitting, I could get 100% accuracy rate on SVC model. The reason is that SVC is using Sex as 
+         one of most significant features. In the test data set, all the females survived and all the males 
+         didn't survive. Therefore I get biases on my model. Therefore, I split the training dataset for the 
+         model training and accuracy scores. The results look more realistic now.
+ Part 6: Submission

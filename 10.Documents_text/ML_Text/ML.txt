@@ -1,0 +1,130 @@
+ML
+- Supervised ML -> When we know what we need to predict.
+  Regression, Classification.   
+  
+  Regression - predict variable will be continous Eg:Big Mart Sales 
+  Linear Model 
+  - Linear Regression -> y=mx+c -> equation of straight line in case of one dependent and one independent variable. More than one, it will be a plane. 
+  - Lasso - l1 regularization - For Feature Selection/Feature Importance 
+  - Ridge - l2 regularization - For handling overfitting in the model 
+  - ElasticNet - Combination of bothe l1 & l2 (L1&l2) 
+  - SVM  - Support Vector Machine  
+  
+  Classification - where the predict variable is categorical (binary/multiclass) Eg: Loan_dataset 
+  Linear Model 
+  -  Logistic
+  
+  Regression and classification 
+  - SVM - 
+  - KNN - Neighbour based algorithms 
+  - Decision Tree - Tree based /condition based approach - ID3, CART, C4.5, CHAID - chisquare test  
+    ID3 - Entropy 
+	CART - Gini Impurity/Gini coefficient 
+    - Decision Tree Regressor 
+	- Decision Tree Classifier 
+  
+  Ensemble Techniques - Multiple model
+  Bagging & Boosting
+  ==================  
+  - Random Forest - Based on Decision Tree , 100 decision tree 
+  Boosting 
+  ========
+  - GRadient Boosting  
+  - AdaBoost 
+  - XGBoost
+  
+- Unsupervised ML -> We will not be having any defined label to identify. Eg: Clustering , customer segmentation 
+- Semi-Supervised ML -> It will be a blend of both supervised and unsupervised learning. 
+
+
+1/(1+e^(mx+c))
+
+y= m1x1+m2x2+m3x3+m4x4.....+C
+
+for one unit change in X how much Y has changed. 
+
+m1 = 0.98
+m2 = 0.7
+m3 = 0.3
+m4 = 0.25
+
+X_train, y_train, X_test, y_test = dataset 
+
+Linear_model.LinearRegression 
+
+model = LinearRegression()
+model.fit(X_train,y_train)
+y= mx+c 
+
+model.predict(X_test)
+
+model._coefficient 
+[0.98,0.7,0.3,0.25]
+
+Iter - 85
+Iter 2 - 89 
+
+======================================================================================================================
+Evaluation of Model
+===================
+
+Loss function - When the model is evaluated for a sample set of data 
+Cost Function - When the model is evaluated for the whole data 
+
+Regression 
+==========
+Linear Models - LR, Lasso , Ridge, Elastic Net, SVM
+Improve this
+- rsquare   
+- Adjusted rsquare 
+
+To reduce this 
+- mse - mean sum of square 
+- mae - mean absolute error
+- rmse - root mean squared error  
+
+LR - mse, mae, rmse
+
+Logistic Regression - Classification 
+- Log loss -> cost function 
+
+Decision Tree - Entropy, Gini 
+SVM - Hinge loss
+
+========================================================================================================================
+
+Bias/Variance ??
+
+Bias - It is the error occuring in the Training Dataset 
+Variance - Error occuring in Test Dataset 
+
+Overfitting - When the model performs extremely well on Training Dataset but very poor on the test dataset then we say the model is a overfit model. 
+              When the diff between training and test accuracy is too much then its a overfitting model 
+Eg: Training Accuracy/Rsquare - 0.98
+    testing Accuracy - 0.50  
+Low Bias and High Variance 
+
+Underfitting - When the model performs poor on train dataset as well on test dataset then its a underfit model.
+High Bias and High Variance  
+
+Correct fit  - When the model performs equally better in both test and train. 
+Low Bias and Low Variance 
+
+=============================================================================================================================
+y=mx+c
+
+
+weight  Height 
+80      170
+85      180
+
+Height = 2(weight) + 0.5
+
+Height ?
+m -?
+C - ?
+- We will assume a value for m & c 
+- Then we will optimise this value to get the better accuracy/cost function
+- The optimisation technique used here is GRadient Descent.
+
+i/n summation(i=1 to n) (yi - ypred)^2 - mse -> cost function 

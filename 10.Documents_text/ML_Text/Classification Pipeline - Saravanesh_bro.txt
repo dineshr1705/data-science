@@ -1,0 +1,71 @@
+Data Transformation Pipeline
+============================
+1. Understanding the dimensions(Columns & rows) of dataset 
+2. Understanding the dtypes of each feature in dataset 
+3. Check Null values in the dataset 
+4. Check for duplicate records in the dataset
+5. Understand the target variable distribution & check if there is any imbalance nature in dataset 
+   - if exists,
+     - apply SMOTE/undersampling on the dataset 
+	 else 
+	 - proceed 
+6. Segregate the dataset features into numerical & categorical
+7. Analyse the numerical features 
+   - Check the distribution of each feature by visualization using an histogram. 
+     - If its a normal distribution,
+       - No need to perform any transformation 
+     - else 
+       - Perform box-cox transformation to convert the non-normal distribution to normal distribution.	 
+   - Check if any outliers exist by drawing a boxplot
+     if exists,
+	 - if the outlier records present in the dataset is too low just omit/delete the records 
+	 - apply outlier imputation techniques (Explore....)	 
+	 else 
+	 - No need to action on the feature 
+   - Check relationship between numerical features 
+     - Pair Plot to check relationship between each of the numerical features    
+     - correlation matrix to understand the magnitude of relationship.
+     - Check VIF 
+======>>>> Explore ANOVA <<<======== 
+8. Analyse the categorical Features 
+   - Understand the frequency of each levels in the feature 
+     - countplot
+	 - value_count
+   - Check if there exist any relationship two features and see if they could be combined to form one single feature.
+   - Using chi-square test, levene's test to check relationship of categorical features
+   - Encoding the categorical features
+     - if the number of levels in the categorical features is <=3
+	   - perform one-hot encoding(perform dummy variable trap while doing this)
+	 - else 
+	   - Perform target encoding / leave one out encoding 
+
+=====>>>> Try to build first baseline ML model<<<==========
+
+9. Handle Multicollinearity 
+   - Checking the correlation matrix/VIF check the collinear features & remove them. 
+
+10.  Perform Dimensionality reduction/Feature Selection,
+    - Using lasso Regression 
+	- Using PCA 
+	- Using Random Forest perform feature selection 
+
+11. Apply standard scalar on the dataset to bring all the features to same scale.	 
+===================================================================================================
+
+Training Pipeline 	   
+=================	 
+1. Split the dataset into train and validation(Good Practise to set the random_state)
+2. fit the first baseline ML Model using default parameters
+3. Perform cross validation and check the performance
+4. Perform Hyper parameters tuning using Random Search CV, Grid Search CV
+5. Fit the model again with the best parameters got from Grid Search CV 
+6. Predict the model outcome on the validation dataset 
+
+Model Evaluation 
+================
+1. Check the model performance using Confusion Matrix/Accuracy/F1score/Precision/Recall on validation dataset 
+2. Evaluate the model again after performing Grid seach CV on validation dataset 
+
+Prediction Pipeline
+===================
+1. Predict the model outcome on the test dataset
